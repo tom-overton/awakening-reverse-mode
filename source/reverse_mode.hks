@@ -3,3 +3,10 @@ ReverseModeHook:
     link:   true
     func:   ReverseModeAsm
     addr:   0x0021a898
+
+# replaces "bne #0x14" with "b #0x14," preventing Vantage+ from being added to
+# the list of valid Lunatic+ skills to select
+DisableVantagePlusOnLunaticPlusHook:
+    type:   patch
+    data:   0x030000ea
+    addr:   0x003a425c

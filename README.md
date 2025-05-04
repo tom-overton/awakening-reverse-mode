@@ -2,6 +2,8 @@
 
 This repo can be built using [Magikoopa](https://github.com/RicBent/Magikoopa/tree/master) to create a mod for Fire Emblem Awakening such that enemies will always strike first when attacked, even on player phase. This is reminiscent of the ["Lunatic Reverse" difficulty mode](https://fireemblemwiki.org/wiki/Difficulty#Lunatic%E2%80%B2_Mode) of FE12. It is also very similar (and, in fact, uses the same functionality as) the Vantage+ skill present on Lunatic+ difficulty. However, this mod works on all difficulties, and it does *not* add or modify skills for any enemy; this behavior is inherent to every enemy and is not tied to a particular skill.
 
+As a bonus, this mod also removes Vantage+ from the list of possible skills that an enemy can randomly have on Lunatic+, since if they *were* to be assigned that skill, it would simply have no effect. This should make Lunatic+ even harder in practice than it was before; have fun!
+
 This mod only supports the US version of Fire Emblem Awakening. I have no plans to ever make this work with any other version of the game. It wouldn't be too hard to figure out the addresses for everything if you want to do it yourself, though.
 
 ## Installation
